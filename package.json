@@ -1,0 +1,11 @@
+{
+    "name": "real-estate-blockchain",
+    "version": "1.0.0",
+    "description": "Blockchain Real Estate Project Powered By Ethereum",
+    "scripts": {
+      "run-server": "cd server && lite-server",
+      "run-client": "cd client && npm start"
+    },
+    "author": "rayaq.siddiqui@uwaterloo.ca",
+    "license": "MIT"
+}
