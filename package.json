@@ -4,7 +4,8 @@
     "description": "Blockchain Real Estate Project Powered By Ethereum",
     "scripts": {
       "run-server": "cd server && lite-server",
-      "run-client": "cd client && npm start"
+      "run-client": "cd client && npm start",
+      "setup-project": "cd client && npm install; cd server && npm install;"
     },
     "author": "rayaq.siddiqui@uwaterloo.ca",
     "license": "MIT"
