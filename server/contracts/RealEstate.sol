@@ -17,12 +17,14 @@ contract RealEstate {
 
     // Mapping from property ID to property information
     uint public propertyCount;
-    mapping(uint => Property) public properties;    
+    mapping(uint => Property) public properties;
 
     // constructor
     constructor() public {
         propertyCount = 0;
         marketOwner = msg.sender;
+
+        createProperty(1 ether, 1, 1, "Toronto");
     }
 
     // events
