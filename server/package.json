@@ -1,7 +1,7 @@
 {
-    "name": "real-estate-blockchain",
+    "name": "real-estate-blockchain-server",
     "version": "1.0.0",
-    "description": "Blockchain Real Estate Project Powered By Ethereum",
+    "description": "Blockchain Real Estate Project Server Powered By Ethereum",
     "main": "truffle-config.js",
     "directories": {
       "test": "test"
